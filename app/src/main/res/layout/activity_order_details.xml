@@ -68,7 +68,7 @@
                         android:fontFamily="@font/calamity_jane"
                         android:text="Halim"
                         android:textColor="#000000"
-                        android:textSize="25sp" />
+                        android:textSize="30sp" />
 
                     <TextView
 
@@ -145,7 +145,7 @@
                         android:fontFamily="@font/calamity_jane"
                         android:text="Biriyani"
                         android:textColor="#000000"
-                        android:textSize="25sp" />
+                        android:textSize="30sp" />
 
                     <TextView
 
@@ -220,7 +220,7 @@
                         android:fontFamily="@font/calamity_jane"
                         android:text="French Fries"
                         android:textColor="#000000"
-                        android:textSize="25sp" />
+                        android:textSize="30sp" />
 
                     <TextView
 
@@ -296,7 +296,7 @@
                         android:fontFamily="@font/calamity_jane"
                         android:text="Rice"
                         android:textColor="#000000"
-                        android:textSize="25sp" />
+                        android:textSize="30sp" />
 
                     <TextView
 
@@ -372,7 +372,7 @@
                         android:fontFamily="@font/calamity_jane"
                         android:text="Pizza"
                         android:textColor="#000000"
-                        android:textSize="25sp" />
+                        android:textSize="30sp" />
 
                     <TextView
 
@@ -447,7 +447,7 @@
                         android:fontFamily="@font/calamity_jane"
                         android:text="Cold Drinks"
                         android:textColor="#000000"
-                        android:textSize="25sp" />
+                        android:textSize="30sp" />
 
                     <TextView
 
@@ -520,7 +520,7 @@
                         android:fontFamily="@font/calamity_jane"
                         android:text="Pasta"
                         android:textColor="#000000"
-                        android:textSize="25sp" />
+                        android:textSize="30sp" />
 
                     <TextView
 
@@ -563,7 +563,7 @@
                 </RelativeLayout>
             </androidx.cardview.widget.CardView>
 
-<androidx.cardview.widget.CardView
+            <androidx.cardview.widget.CardView
                 android:id="@+id/cv8"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -593,7 +593,7 @@
                         android:fontFamily="@font/calamity_jane"
                         android:text="Soup"
                         android:textColor="#000000"
-                        android:textSize="25sp" />
+                        android:textSize="30sp" />
 
                     <TextView
 
