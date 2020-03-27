@@ -126,8 +126,9 @@ public class orderDetails extends AppCompatActivity implements View.OnClickListe
                 hp = hp - 1;
                 haleem.setText(Integer.toString(hp));
                 Toast.makeText(this, "Haleem Removed", Toast.LENGTH_SHORT).show();
+            } else {
+                Toast.makeText(this, "Add Any Item First", Toast.LENGTH_SHORT).show();
             }
-            Toast.makeText(this, "Add Any Item First", Toast.LENGTH_SHORT).show();
 
 
         } else if (view == findViewById(R.id.biriyani_button_rm)) {
@@ -138,8 +139,9 @@ public class orderDetails extends AppCompatActivity implements View.OnClickListe
 
                 biriyani.setText(Integer.toString(bp));
                 Toast.makeText(this, "Biriyani Removed", Toast.LENGTH_SHORT).show();
+            } else {
+                Toast.makeText(this, "Add Any Item First", Toast.LENGTH_SHORT).show();
             }
-            Toast.makeText(this, "Add Any Item First", Toast.LENGTH_SHORT).show();
 
         } else if (view == findViewById(R.id.fried_button_rm)) {
 
@@ -149,8 +151,9 @@ public class orderDetails extends AppCompatActivity implements View.OnClickListe
                 frp = frp - 1;
                 fried.setText(Integer.toString(frp));
                 Toast.makeText(this, "French Fry Removed", Toast.LENGTH_SHORT).show();
+            } else {
+                Toast.makeText(this, "Add Any Item First", Toast.LENGTH_SHORT).show();
             }
-            Toast.makeText(this, "Add Any Item First", Toast.LENGTH_SHORT).show();
 
         } else if (view == findViewById(R.id.plain_button_rm)) {
 
@@ -159,8 +162,9 @@ public class orderDetails extends AppCompatActivity implements View.OnClickListe
                 pp = pp - 1;
                 plain.setText(Integer.toString(pp));
                 Toast.makeText(this, "Rice Removed", Toast.LENGTH_SHORT).show();
+            } else {
+                Toast.makeText(this, "Add Any Item First", Toast.LENGTH_SHORT).show();
             }
-            Toast.makeText(this, "Add Any Item First", Toast.LENGTH_SHORT).show();
 
 
         } else if (view == findViewById(R.id.pizza_button_rm)) {
@@ -170,8 +174,9 @@ public class orderDetails extends AppCompatActivity implements View.OnClickListe
                 pizzap = pizzap - 1;
                 pizza.setText(Integer.toString(pizzap));
                 Toast.makeText(this, "Pizza Removed", Toast.LENGTH_SHORT).show();
+            } else {
+                Toast.makeText(this, "Add Any Item First", Toast.LENGTH_SHORT).show();
             }
-            Toast.makeText(this, "Add Any Item First", Toast.LENGTH_SHORT).show();
 
 
         } else if (view == findViewById(R.id.drinks_button_rm)) {
@@ -180,9 +185,9 @@ public class orderDetails extends AppCompatActivity implements View.OnClickListe
                 drp = drp - 1;
                 drinks.setText(Integer.toString(drp));
                 Toast.makeText(this, "Drinks Removed", Toast.LENGTH_SHORT).show();
+            } else {
+                Toast.makeText(this, "Add Any Item First", Toast.LENGTH_SHORT).show();
             }
-
-            Toast.makeText(this, "Add Any Item First", Toast.LENGTH_SHORT).show();
 
         } else if (view == findViewById(R.id.soup_button_rm)) {
 
@@ -190,20 +195,20 @@ public class orderDetails extends AppCompatActivity implements View.OnClickListe
                 soupPrice = soupPrice - 1;
                 soup.setText(Integer.toString(drp));
                 Toast.makeText(this, "Soup Removed", Toast.LENGTH_SHORT).show();
+            } else {
+
+                Toast.makeText(this, "Add Any Item First", Toast.LENGTH_SHORT).show();
             }
 
-            Toast.makeText(this, "Add Any Item First", Toast.LENGTH_SHORT).show();
-
-        }
-        else if (view == findViewById(R.id.pasta_button_rm)) {
+        } else if (view == findViewById(R.id.pasta_button_rm)) {
 
             if (pastap > 0) {
-                pastap= pastap - 1;
+                pastap = pastap - 1;
                 pasta.setText(Integer.toString(pastap));
                 Toast.makeText(this, "Pasta Removed", Toast.LENGTH_SHORT).show();
+            } else {
+                Toast.makeText(this, "Add Any Item First", Toast.LENGTH_SHORT).show();
             }
-
-            Toast.makeText(this, "Add Any Item First", Toast.LENGTH_SHORT).show();
 
         }
     }
